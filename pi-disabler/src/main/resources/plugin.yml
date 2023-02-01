@@ -3,3 +3,8 @@ main: me.henry.piechartdisabler.PieChartDisabler
 version: 1.0
 author: Henry
 description: A plugin that disables the pie chart in the f3 menu for everyone in the game, with the exception of players allowed by the /pioverride command.
+commands:
+  pioverride:
+    description: Allows the specified player to access the pie chart.
+    usage: /pioverride <player>
+    permission: piechartdisabler.pioverride
